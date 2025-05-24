@@ -1,0 +1,24 @@
+/* src/App.css */
+nav {
+  background-color: #003366;  /* deep blue */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #66a3ff; /* soft blue background */
+  color: #003366;            /* deep blue text */
+  text-decoration: none;
+}
